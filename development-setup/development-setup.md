@@ -1,17 +1,17 @@
-#WIN CAPSTONE PROJECT - DEVELOPMENT SETUP
-###If you need help at any stage, please contact me: (828)450-4972
-##1) Installing Nodejs and npm
+# WIN CAPSTONE PROJECT - DEVELOPMENT SETUP
+### If you need help at any stage, please contact me: (828)450-4972
+## 1) Installing Nodejs and npm
 
 Nodejs is a javascript runtime (i.e. it interprets and executes javascript). Technically we do not need Nodejs to execute a react front end (since that occurs through the browser's javascript runtime), but we will be using npm (Node Packet Manager) to install and build our React app, which requires Nodejs to work.
 
-###To install Nodejs and npm:
+### To install Nodejs and npm:
 
-####Windows:
+#### Windows:
 1) Go to https://nodejs.org/en/
 2) Click on the download for LTS (long term service)
 3) open the .msi file and run the installer
 
-####macOS:
+#### macOS:
 1) Go to https://nodejs.org/en/download/
 2) select the macOS installer
 3) run the installer
@@ -25,7 +25,7 @@ you should see a response such as:
 
 if not, please contact me.
 
-####npm
+#### npm
 After installing node, run this command:
 
 > npm install -g npm@latest
@@ -33,16 +33,16 @@ After installing node, run this command:
 This will install the latest version of npm on your machine. 
 please contact me if you have any  issues.
 
-##2) Project Setup with Git and Intellij
+## 2) Project Setup with Git and Intellij
 
-###Cloning from Github
+### Cloning from Github
 The project repository can be found here: https://github.com/mgcioce/WIN-capstone
 
 open your command line/terminal and navigate to the directory where you want to keep the project. Then run this command:
 
 > git clone https://github.com/mgcioce/WIN-capstone.git
 
-###Importing Project
+### Importing Project
 Next open up Intellij. If you go straight to a project screen (as in a different project loads automatically), navigate to File => Open and 
 navigate to the cloned project folder "WIN-capstone".
 
@@ -68,10 +68,10 @@ click **Next**.
 13) Go ahead and click **Finish**
 14) On the bottom right click **Apply**. You should now see the two modules in the project navigator on the left. click **OK**.
 
-###Configuration Setup
+### Configuration Setup
 Now we need to configure the React and Spring Boot modules to run. 
 
-####Spring Boot
+#### Spring Boot
 1) In the top right next to the run button you should see a box with the text **Add Configuration**. Click on that
 2) In the top left click the plus (+) button navigate down the list to Spring Boot and click on it.
 3) In the top of the **Configuration** tab there is a **Main Class** textbox. Click the elipses (...) to the right of the text box. From here IntelliJ should be smart enough to recognize that **MovieHubApplication (org.carolinafintechhub.moviehub)** is the java class with the main method in it. Select that and click **OK**  
@@ -94,7 +94,7 @@ Now hit **Connect**. You should see one table there called TEST_MODEL.
 
 Congrats! Go ahead and stop the Spring Boot app. Now let's do the React one.
 
-####React
+#### React
 1) Once again go to the dropdown and click on **Edit Configuration**
 2) Click the plus button again (+) and select **npm**
 3) In the Command dropdown select **start**
