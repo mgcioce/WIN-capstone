@@ -125,9 +125,39 @@ if you are not on the master branch use **git checkout** to move to the master b
 
 At this point you are ready to start working on the project and pushing your commits to the remote branch using **git push**. Once you are done with the feature and have pushed it to the remote repository, follow these steps:
 
+**7) open your web browser and go to https://github.com/mgcioce/WIN-capstone/**
 
+**8) Scroll down the page and click on the branch dropdown. Select your feature branch (see picture below)**
 
+![example 11](/example11.jpg)
 
+**9) On the feature branch page, click "New Pull Request"**
+
+![example 10](/example10.jpg)
+
+**10) On the compare changes page, select the "master" branch as the base and the feature branch as the compare**
+
+![example 12](/example12.jpg)
+
+**11) Write a message that describes what the feature is and click "Create pull request"**
+
+![example 13](/example13.jpg)
+
+**12) If there are no conflicts go ahead and click "Merge pull request", "Confirm merge" and then "Delete Branch". Otherwise let me know and I'll work through the merge conflicts**
+
+![example 14](/example14.jpg)
+
+**13) Lastly, go back to your local terminal/command prompt and checkout the master branch**
+
+> git checkout master
+
+**14) Now go ahead and delete your local branch**
+
+> git branch -d feature/feature-branch-description
+
+Follow these steps and hopefully we will be victorious!
+
+Mike
 
 
 
