@@ -20,7 +20,7 @@ Let's go through a quick example:
 ### Making a Commit
 So i make a folder and turned it into a git **repo** (which stands for repository). Essentially all that means is that git can be used to control the state of that folder and anything in it.
 
-![example 1](https://github.com/mgcioce/WIN-capstone/tree/master/git-workflow/example1.jpg)
+![example 1](example1.jpg)
 
 Above you can see the directory structure of my example project. I have one file in it called *file1.txt*. At this point I haven't made the first commit on my repo, So I can't make a branch yet because I haven't established any "state" for my project. 
 
