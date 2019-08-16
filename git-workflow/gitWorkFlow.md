@@ -39,7 +39,7 @@ making a git commit consists of two parts:
 
 So in this example I'm going to stage the *file1.txt* to be committed using **git add** and then commit the state of the project using **git commit**.
 
-![example 2](/example2.JPG)
+![example 2](example2.JPG)
 
 First I ran **git add file1.txt** which staged the file to be committed. Then I attempted to run **git commit -m "my commit message here"** but was yelled at by git for essentially not being signed in. When you commit git needs to have a record of *who* made the commit. After I set my email and username it then allowed me to execute the command. 
 
@@ -51,25 +51,25 @@ So pretend that this example project is our project and it is a working app - no
 
 to create a branch, use **git branch new-branch-name-here**
 
-![example 3](/example3.JPG)
+![example 3](example3.JPG)
 
 Above you can see I created a new branch, and then I looked at what branches existed by using the **git branch** command. Now that I created a branch I need to **checkout** that branch in order to work on it: git only allows you to work and commit to one branch at a time. Note that there are ways to move between branches as you are doing work. We will cover that later.
 
 Now I'm going to checkout my new branch so I can work on it.
 
-![example 4](/example4.JPG)
+![example 4](example4.JPG)
 
 So now that I am on the new branch I'm going to make a couple of changes. I'm going to add a new file and then change text in the other file.
 
-![example 5](/example5.JPG)
-![example 6](/example6.JPG)
-![example 7](/example7.JPG)
+![example 5](example5.JPG)
+![example 6](example6.JPG)
+![example 7](example7.JPG)
 
 So note that I added a line to *file1.txt*, which is a change from the original. Then I added a new file to the project which git hasn't tracked yet (i.e. it hasn't been a part of any commit). My git status shows this info to me. 
 
 So I've made my changes and now I want to commit them. First I need to stage the changes by using **git add**. In this case I want to include all of the files that have been changed or created. If i am in the root of the project directory structure, then I can do that by using **git add .**, where the period represents the current directory I'm in. Afterwords, I am going to commit those changes using **git commit -m "a message"**, where the -m "flag" is used to specify a message for the commit. **Every commit must have a message** that gives description of what changes/additions have been made.
 
-![example 8](/example8.JPG)
+![example 8](example8.JPG)
 
 Now let's talk about merging branches
 
@@ -77,7 +77,7 @@ Now let's talk about merging branches
 
 So we have our project that is different from the project state it was branched from. What we want to do now is to **merge** "my-branch" back into the "master" branch (in this way we are saying we like the changes we have made and we want that to be a part of the official project now). Note that in essense all we are doing is saying that we want to take the copy branch and it's state and combine it with the original branch and it's state.
 
-![example 9](/example9.JPG)
+![example 9](example9.JPG)
 
 Now the changes I made to the project have been added to the original and a new commit was made from which another branch can be created. 
 
@@ -129,23 +129,23 @@ At this point you are ready to start working on the project and pushing your com
 
 **8) Scroll down the page and click on the branch dropdown. Select your feature branch (see picture below)**
 
-![example 11](/example11.JPG)
+![example 11](example11.JPG)
 
 **9) On the feature branch page, click "New Pull Request"**
 
-![example 10](/example10.JPG)
+![example 10](example10.JPG)
 
 **10) On the compare changes page, select the "master" branch as the base and the feature branch as the compare**
 
-![example 12](/example12.JPG)
+![example 12](example12.JPG)
 
 **11) Write a message that describes what the feature is and click "Create pull request"**
 
-![example 13](/example13.JPG)
+![example 13](example13.JPG)
 
 **12) If there are no conflicts go ahead and click "Merge pull request", "Confirm merge" and then "Delete Branch". Otherwise let me know and I'll work through the merge conflicts**
 
-![example 14](/example14.JPG)
+![example 14](example14.JPG)
 
 **13) Lastly, go back to your local terminal/command prompt and checkout the master branch**
 
