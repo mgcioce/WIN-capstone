@@ -1,11 +1,14 @@
 {
-  "name": "movie-ui",
+  "name": "capstoneprojecttwo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "eslint": "^6.1.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
     "typescript": "^3.5.3"
   },
@@ -29,8 +32,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "npm": "^6.10.3"
   }
 }
