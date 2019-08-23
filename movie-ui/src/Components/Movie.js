@@ -1,13 +1,9 @@
 import React from 'react';
 import '../CSS/HomeCSS.css';
-import Navbar from './Navbar.js'
 
-function MovieOfTheWeek() {
+function Movie() {
     return (
-      <div>
-          <Navbar />
-
-          <div className="title-row">
+        <div className="title-row">
             <div className="row">
                 <div className="col-sm-8 movie-card-title">
                     <div className="card border-0">
@@ -28,8 +24,7 @@ function MovieOfTheWeek() {
                 </div>
             </div>
         </div>
-      </div>
     )
 };
 
-export default MovieOfTheWeek;
+export default Movie;

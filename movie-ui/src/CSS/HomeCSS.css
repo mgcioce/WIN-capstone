@@ -9,6 +9,10 @@
     object-fit: cover;
 }
 
+.btn {
+    margin-top: 35px;
+}
+
 .title-row {
     background-color:transparent !important;
     border-style:solid;
@@ -26,10 +30,6 @@
 .home-card-title {
     border-style: none;
 }
-
-/*.home-card-image {*/
-/*    height: 30vw;*/
-/*}*/
 
 .lead {
     padding-top: 15px;
