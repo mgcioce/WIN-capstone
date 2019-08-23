@@ -8,8 +8,6 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import MovieOftheWeek from './Components/MovieOfTheWeek';
-import DraftsAndBrackets from './Components/DraftsAndBrackets';
-import CiocesCorner from './Components/CiocesCorner';
 import TopTen from "./Components/TopTen";
 import MostOverrated from "./Components/MostOverrated";
 
@@ -19,8 +17,7 @@ const routing = (
             <Route exact path="/" component={App} />
             <Route path="/MovieOfTheWeek" component={MovieOftheWeek} />
             <Route path="/TopTens" component={TopTen} />
-            <Route path="/CiocesCorner" component={CiocesCorner} />
-
+            <Route path="/MostOverrated" component={MostOverrated} />
         </div>
     </Router>
 )

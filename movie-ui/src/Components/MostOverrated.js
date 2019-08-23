@@ -1,41 +1,22 @@
-// import React from 'react';
-// import '../CSS/HomeCSS.css';
-// import Navbar from "./Navbar";
-// import Movie from "./Movie";
-//
-// function MostOverrated() {
-//     return (
-//         <div>
-//             <Navbar/>
-//
-//             <Carousel>
-//                 <Carousel.Item>
-//                     <img
-//                         className="d-block w-100"
-//                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwWe8YXaawyojAO_47K0QBzQf5Hi9j-VPkBVPqw1wZrb4Sd33"
-//                         alt="First slide"
-//                     />
-//                 </Carousel.Item>
-//                 <Carousel.Item>
-//                     <img
-//                         className="d-block w-100"
-//                         src="holder.js/800x400?text=Second slide&bg=282c34"
-//                         alt="Third slide"
-//                     />
-//                 </Carousel.Item>
-//                 <Carousel.Item>
-//                     <img
-//                         className="d-block w-100"
-//                         src="holder.js/800x400?text=Third slide&bg=20232a"
-//                         alt="Third slide"
-//                     />
-//                 </Carousel.Item>
-//             </Carousel>
-//
-//
-//         </div>
-//
-//     )
-// };
-//
-//     export default MostOverrated;
+import React from 'react';
+import '../CSS/HomeCSS.css';
+import Navbar from "./Navbar";
+
+function MostOverrated() {
+    return (
+        <div>
+            <Navbar/>
+
+            <div class="container leo">
+                <img src="https://www.cheatsheet.com/wp-content/uploads/2019/08/Leonardo-Di-Caprio.jpg" />
+            </div>
+
+            <p class={"leo-overrated"}> Leonardo DiCaprio is overrated. All of his roles could have been played better by other actors.</p>
+
+        </div>
+
+
+    )
+};
+
+    export default MostOverrated;

@@ -6,6 +6,7 @@ import Navbar from './Navbar.js'
 function home() {
   return (
     <div>
+
       <Navbar />
 
       <div class="title-row">
