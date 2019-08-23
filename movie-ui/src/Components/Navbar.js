@@ -19,26 +19,19 @@ function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link"><Link to="/MovieOfTheWeek">Movie Of the Week </Link></a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link"><Link to="/DraftsAndBrackets">Drafts & Brackets</Link></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link"><Link to="/CiocesCorner">Cioce's Corner</Link></a>
-                        </li>
                         <li className="nav-item dropdown" >
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Discussion Starters
               </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a className="dropdown-item"><Link to="/TopTens">Top Tens</Link></a>
                                 <a className="dropdown-item" href="#">Drafts</a>
-                                <a className="dropdown-item" href="#">Brackets</a>
-                                <a className="dropdown-item" href="#">Most Overrated Actors & Actresses</a>
-                                <a className="dropdown-item" href="#">Top Tens</a>
+                                <a className="dropdown-item"><Link to="/MostOverrated">Most Overrated Actor</Link></a>
                             </div>
                         </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
-                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                        <input className="form-control mr-sm-2" type="search" placeholder="Search for a Movie" aria-label="Search" />
                         <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>
