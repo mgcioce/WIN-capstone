@@ -8,6 +8,8 @@ public class MovieHubApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MovieHubApplication.class, args);
-    }
 
-}
+
+             }
+        }
+
