@@ -8,3 +8,38 @@
     height: 15vw;
     object-fit: cover;
 }
+
+.btn {
+    margin-top: 35px;
+}
+
+.title-row {
+    background-color:transparent !important;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.jumbotron-img {
+    width: 100%;
+}
+
+.home-card-title {
+    border-style: none;
+}
+
+.lead {
+    padding-top: 15px;
+}
+
+.title-row {
+    padding: 50px;
+}
+
+.card-deck {
+    padding: 35px;
+}
+

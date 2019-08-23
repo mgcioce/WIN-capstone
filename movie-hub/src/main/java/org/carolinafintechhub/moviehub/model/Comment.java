@@ -1,22 +1,30 @@
 package org.carolinafintechhub.moviehub.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
-@Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
 @Entity
+@AllArgsConstructor
+@RequiredArgsConstructor
+@Data//getters, setters, toString, RequiredArgs Constructor
 public class Comment {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
-    private String title;
-    private String prompt;
-    private LocalDateTime creationDate;
+
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY) // these two annotations auto generate id numbers for each comment; only unique values can be created
+        private Long id;
+
+        private String name;
+        private String title;
+        private String prompt;
+        private LocalDateTime creationDate;
+
+        @ManyToOne
+        @JoinColumn(nullable = true, name = "discussion_id", referencedColumnName = "id")
+        private Discussion discussion;
 
 }
+
