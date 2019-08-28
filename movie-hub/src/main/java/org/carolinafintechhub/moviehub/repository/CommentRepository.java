@@ -17,5 +17,4 @@ public interface CommentRepository extends CrudRepository<Comment, Long> {
 
     Comment findCommentById(long id);
 
-    Comment editCommentById(long id);
 }

@@ -29,8 +29,8 @@ public class CommentService {
         return commentRepository.findCommentById(id);
     }
 
-    public Comment editCommentById (long id) {
-       return commentRepository.editCommentById(id);
+    public Comment editCommentById (Comment comment) {
+       return commentRepository.save(comment);
     }
 
 }
