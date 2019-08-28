@@ -44,7 +44,7 @@ function Drafts() {
                          src=""
                          alt=""/>
                     <div className="card-body">
-                        <h5 className="card-title">Maurice's Picks</h5>
+                        <h5 className="card-title">GQ's Picks</h5>
                         <p className="card-text"></p>
                     </div>
                 </div>
