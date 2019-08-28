@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/movie-hub/movie-hub.iml" filepath="$PROJECT_DIR$/movie-hub/movie-hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-hub/movie-hub.iml" filepath="$PROJECT_DIR$/movie-hub/movie-hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-ui/movie-ui.iml" filepath="$PROJECT_DIR$/movie-ui/movie-ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-ui/movie-ui.iml" filepath="$PROJECT_DIR$/movie-ui/movie-ui.iml" />
     </modules>
   </component>
