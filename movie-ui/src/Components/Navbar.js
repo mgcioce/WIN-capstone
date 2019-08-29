@@ -24,7 +24,7 @@ function Navbar() {
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Discussion Starters</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item"><Link to="/TopTens">Top Tens</Link></a>
+                                <a className="dropdown-item"><Link to="/TopTens">Top Fives</Link></a>
                                 <a className="dropdown-item"><Link to="/Drafts">Drafts</Link></a>
                                 <a className="dropdown-item"><Link to="/MostOverrated">Most Overrated Actor</Link></a>
                             </div>
