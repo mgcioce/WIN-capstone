@@ -10,7 +10,8 @@ import 'bootstrap/dist/js/bootstrap.js';
 import MovieOftheWeek from './Components/MovieOfTheWeek';
 import TopTen from "./Components/TopTen";
 import MostOverrated from "./Components/MostOverrated";
-import Drafts from "./Components/Drafts"
+import Drafts from "./Components/Drafts";
+import MovieSearchResult from "./Components/MovieSearchResult";
 
 const routing = (
     <Router>
@@ -20,6 +21,7 @@ const routing = (
             <Route path="/TopTens" component={TopTen} />
             <Route path="/MostOverrated" component={MostOverrated} />
             <Route path="/Drafts" component={Drafts} />
+            <Route path="/MovieSearchResult" component={MovieSearchResult} />
         </div>
     </Router>
 )
