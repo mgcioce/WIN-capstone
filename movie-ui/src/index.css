@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#root {
+  background-image: url("./static/images/CinemaWallpaper.png");
+  background-repeat: repeat;
+}

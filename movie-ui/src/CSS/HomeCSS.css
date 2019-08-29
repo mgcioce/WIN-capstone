@@ -18,7 +18,7 @@
 }
 
 .title-row {
-    background-color:transparent !important;
+    background-color:#ffffff;
     border-style:solid;
     border-width: 1px;
     border-color: #e5e5e5;
@@ -54,4 +54,12 @@
 .comingtoamerica {
     width: 200px;
     height: 300px;
+}
+
+.main-div {
+    height: 100vh;
+}
+
+.logo {
+    width: 100px;
 }
