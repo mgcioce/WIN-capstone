@@ -33,8 +33,8 @@ function home() {
         <div class="card">
           <img class="card-img-top" src="https://www.indiewire.com/wp-content/uploads/2017/02/shutterstock_7898420om.jpg?w=780" alt="Card image cap" />
           <div class="card-body">
-            <a href={"TopTens"} class="card-title">Top 10 Tom Hanks Movies Ranked!</a>
-            <p class="card-text">From Forrest Gump to Philadelphia, our team of critics has ranked the top ten Tom Hanks movies. Click to find out where your favorites ranked.</p >
+            <a href={"TopTens"} class="card-title">Top 5 Tom Hanks Movies Ranked!</a>
+            <p class="card-text">From Forrest Gump to Philadelphia, our team of critics has ranked the top five Tom Hanks movies. Click to find out where your favorites ranked.</p >
           </div>
         </div>
         <div class="card">
