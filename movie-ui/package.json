@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "disqus-react": "^1.0.6",
     "jquery": "^3.4.1",
+    "npm": "^6.11.2",
     "popper.js": "^1.15.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

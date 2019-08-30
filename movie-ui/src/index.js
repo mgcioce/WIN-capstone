@@ -10,6 +10,8 @@ import 'bootstrap/dist/js/bootstrap.js';
 import MovieOftheWeek from './Components/MovieOfTheWeek';
 import DraftsAndBrackets from './Components/DraftsAndBrackets';
 import CiocesCorner from './Components/CiocesCorner';
+import Discussion from './Components/Discussion';
+import DiscussionForum from './Components/DiscussionForum';
 
 const routing = (
     <Router>
@@ -18,7 +20,7 @@ const routing = (
             <Route path="/MovieOfTheWeek" component={MovieOftheWeek} />
             <Route path="/DraftsAndBrackets" component={DraftsAndBrackets} />
             <Route path="/CiocesCorner" component={CiocesCorner} />
-
+            <Route path="/Discussions" component={DiscussionForum}></Route>
         </div>
     </Router>
 )
