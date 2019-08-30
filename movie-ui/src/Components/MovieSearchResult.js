@@ -1,14 +1,21 @@
 import React from 'react';
 import '../CSS/HomeCSS.css';
 import Navbar from './Navbar.js'
-import Movie from "./Movie";
+
 
 function MovieSearchResult() {
     return (
         <div>
             <Navbar/>
 
-            <Movie/>
+            <div className="searchgif">
+                <div >
+                    <img src="https://media1.giphy.com/media/yoOotVRp4JMxVTEgDy/giphy.gif"/>
+                </div>
+            </div>
+
+                <p className="searchtext"> We never got this working. But we got a lot closer than this guy did to dunking.</p>
+
 
         </div>
     )

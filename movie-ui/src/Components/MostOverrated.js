@@ -16,19 +16,27 @@ export default class MostOverrated extends Component {
             <div>
                 <Navbar/>
 
-                <div className="main-div">
-                    <div class="container leo">
+                <h1 className="pagetitle">The Most Overrated Actor</h1>
+
+                <div className="leopic">
+                    <div >
                         <img src="https://www.cheatsheet.com/wp-content/uploads/2019/08/Leonardo-Di-Caprio.jpg"/>
                     </div>
-
-                    <p class={"leo-overrated"}> Leonardo DiCaprio is overrated. All of his roles could have been played
-                        better by other actors.</p>
-
                 </div>
+
+                    <p className={"leo-overrated"}> "Leonardo DiCaprio is overrated. All of his roles could have been played
+                        better by other actors." -Kyle </p>
+
+                    <div className="Dicussion-Container">
+
+                    </div>
+
+                    <div className="Dicussion-Container">
                 <Disqus.DiscussionEmbed
                     shortname={'movieclub-1'}
                     config={disqusConfig}
                 />
+                    </div>
             </div>
 
 

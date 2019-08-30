@@ -18,7 +18,7 @@ export default class Drafts extends Component {
             <div>
                 <Navbar/>
 
-                <h1 className="Drafts-title">This week's draft: Romantic Comedies</h1>
+                <h1 className="pagetitle">This week's draft: Romantic Comedies</h1>
 
                 <div className="card-deck justify-content-center align-self-center draft-top-row">
                     <div className="card">
@@ -85,10 +85,12 @@ export default class Drafts extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="Dicussion-Container">
                 <Disqus.DiscussionEmbed
                     shortname={'movieclub-1'}
                     config={disqusConfig}
                 />
+                </div>
             </div>
         )
     };

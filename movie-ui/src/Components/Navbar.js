@@ -1,7 +1,6 @@
 import React from 'react';
 import '../CSS/HomeCSS.css';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-import MovieSearchResult from "./MovieSearchResult";
 import Logo from '../static/images/WINCinema2.png';
 
 function Navbar() {

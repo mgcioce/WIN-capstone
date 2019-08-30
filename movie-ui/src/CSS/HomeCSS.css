@@ -63,3 +63,44 @@
 .logo {
     width: 100px;
 }
+
+.Dicussion-Container {
+    background-color:#ffffff;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.pagetitle {
+    font-size: 55px;
+    text-align: center;
+}
+
+.leopic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 54%;
+    margin-top: 30px;
+}
+
+.leo-overrated {
+    font-size: 30px;
+    text-align: center;
+}
+
+.searchgif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 30px;
+}
+
+.searchtext{
+    font-size: 29px;
+    text-align: center;
+}

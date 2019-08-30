@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../CSS/HomeCSS.css';
 import Navbar from "./Navbar";
-import Movie from "./Movie";
 import CaptainPhillips from "../static/images/Captain-Phillips.jpg";
 import Forrest from "../static/images/Forrest-Gump.jpg";
 import Catch from "../static/images/Catch-Me-If-You-Can.jpg";
@@ -25,7 +24,7 @@ export default class TopTen extends Component {
             <div>
                 <Navbar/>
 
-                <h1 className="Hanks-title">Top Five Tom Hanks Movies, Ranked!</h1>
+                <h1 className="pagetitle">Top Five Tom Hanks Movies, Ranked!</h1>
 
                 <div className="title-row">
                     <div className="row">
@@ -160,10 +159,12 @@ export default class TopTen extends Component {
                     </div>
                 </div>
 
+                <div className="Dicussion-Container">
                 <Disqus.DiscussionEmbed
                     shortname={'movieclub-1'}
                     config={disqusConfig}
                 />
+                </div>
             </div>
         )
     };

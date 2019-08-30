@@ -17,6 +17,8 @@ export default class MovieOfTheWeek extends Component {
             <div>
                 <Navbar/>
 
+                <h1 className="pagetitle"> This week's Movie of the Week: Coming To America</h1>
+
                 <div className="main-div">
                     <div className="title-row">
                         <div className="row">
@@ -45,10 +47,12 @@ export default class MovieOfTheWeek extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="Dicussion-Container">
                 <Disqus.DiscussionEmbed
                     shortname={'movieclub-1'}
                     config={disqusConfig}
                 />
+                </div>
             </div>
         )
     };
